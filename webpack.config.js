@@ -2,6 +2,7 @@ const autoprefixer = require('autoprefixer');
 const JsonIncWebpackPlugin = require('./node_modules/@scvo/common/json-inc-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ExtraWatchWebpackPlugin = require('extra-watch-webpack-plugin');
+const CompressionWebpackPlugin = require('compression-webpack-plugin');
 
 module.exports = (env) => {
   const plugins = [
@@ -16,6 +17,13 @@ module.exports = (env) => {
       pattern: './configuration/config.inc.json',
       output: './build'
     }),
+    new CompressionWebpackPlugin({
+      test: /\.(js)|(css)|(scss)|(html)|(htm)|(txt)$/i,
+      filename: (info) => {
+        console.log('COMPRESSION INFO:', info);
+        return info.path
+      }
+    })
   ];
 
   if (env !== 'prod') {
