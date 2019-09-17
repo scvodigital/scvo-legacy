@@ -19,6 +19,7 @@ module.exports = (env) => {
     }),
     new CompressionWebpackPlugin({
       test: /\.(js)|(css)|(scss)|(html)|(htm)|(txt)$/i,
+      exclude: ['build/config.json'],
       filename: (info) => {
         return info.replace(/.gz$/, '')
       }
