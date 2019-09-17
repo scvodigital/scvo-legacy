@@ -20,8 +20,7 @@ module.exports = (env) => {
     new CompressionWebpackPlugin({
       test: /\.(js)|(css)|(scss)|(html)|(htm)|(txt)$/i,
       filename: (info) => {
-        console.log('COMPRESSION INFO:', info);
-        return info.path
+        return info.replace(/.gz$/, '')
       }
     })
   ];
