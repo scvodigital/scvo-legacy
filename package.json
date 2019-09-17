@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0",
-    "start": "npm run clear-build && LIBRARY=SCVO webpack --watch --env=dev",
-    "build": "npm run clear-build && LIBRARY=SCVO webpack --env=prod",
+    "start": "npm run clear-build && LIBRARY=SCVOLegacy webpack --watch --env=dev",
+    "build": "npm run clear-build && LIBRARY=SCVOLegacy webpack --env=prod",
     "publish": "npm run build && GOOGLE_APPLICATION_CREDENTIALS=\"secret.json\" SITE=scvo-legacy node publish.js",
     "clear-build": "rm -rf build/**",
     "deploy": "./deploy.sh"
