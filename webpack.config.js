@@ -17,18 +17,19 @@ module.exports = (env) => {
       pattern: './configuration/config.inc.json',
       output: './build'
     }),
-    new CompressionWebpackPlugin({
-      test: /\.(js)|(css)|(scss)|(html)|(htm)|(txt)$/i,
-      filename: (info) => {
-        console.log('COMPRESSION INFO:', info);
-        return info.path
-      }
-    })
   ];
 
   if (env !== 'prod') {
     plugins.push(new ExtraWatchWebpackPlugin({
       files: ['./configuration/**/*', './assets/**/*']
+    }));
+  } else {
+    plugins.push(new CompressionWebpackPlugin({
+      test: /\.(js)|(css)|(scss)|(html)|(htm)|(txt)$/i,
+      exclude: ['build/config.json'],
+      filename: (info) => {
+        return info.replace(/.gz$/, '')
+      }
     }));
   }
 
