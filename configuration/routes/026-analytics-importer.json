@@ -38,12 +38,22 @@
       }
     },
     {
+      "name": "sendEmail",
+      "taskModule": "mailgun",
+      "renderer": "handlebars",
+      "config": {
+        "output": "data",
+        "parseJson": true,
+        "template": ">context.metaData.handlebars.templates.utilities_ga-email"
+      }
+    },
+    {
       "name": "destination",
       "taskModule": "render",
       "renderer": "handlebars",
       "config": {
         "output": "body",
-        "template": "{{{stringify (default @root.data.import (default @root.errors 'nope'))}}}",
+        "template": "{{{safeStringify (default @root.data.sendEmail (default @root.errors 'nope'))}}}",
         "parseJson": "true"
       }
     }

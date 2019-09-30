@@ -1,0 +1,10 @@
+[
+  {
+    "from": "Goodmoves <no-reply@goodmoves.com>",
+    "h:sender": "Goodmoves <no-reply@goodmoves.com>",
+    "to": "tonicblue@gmail.com",
+    "connectionName": "goodmoves-saved-searches",
+    "subject": "Goodmoves Analytics Import Report",
+    "html": "<html><head></head><body><h1>Analytics imported</h1><p>Analytics data all imported</p>{{#if @root.errors}}<h2>Errors</h2><pre>{{{json value=@root.errors}}}</pre>{{/if}}</body></html>"
+  }
+]
