@@ -969,8 +969,8 @@
 					},
 					{
 						"label": "Application form guidance notes",
-						"path": "/running-your-organisation/funding/community-capacity-resilience-fund/guidance",
-						"route": "^/running-your-organisation/funding/community-capacity-resilience-fund/guidance$"
+						"path": "/running-your-organisation/funding/community-capacity-resilience-fund/guidance-notes",
+						"route": "^/running-your-organisation/funding/community-capacity-resilience-fund/guidance-notes$"
 					},
 					{
 						"label": "Project ideas",
