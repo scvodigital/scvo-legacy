@@ -984,8 +984,8 @@
 					},
 					{
 						"label": "Frequently asked questions",
-						"path": "/running-your-organisation/funding/community-capacity-resilience-fund/faqs",
-						"route": "^/running-your-organisation/funding/community-capacity-resilience-fund/faqs$"
+						"path": "/running-your-organisation/funding/community-capacity-resilience-fund/frequently-asked-questions-ccrf-round-5",
+						"route": "^/running-your-organisation/funding/community-capacity-resilience-fund/frequently-asked-questions-ccrf-round-5$"
 					},
 					{
 						"label": "Apply",
