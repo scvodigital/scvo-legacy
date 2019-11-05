@@ -753,6 +753,11 @@
 				"route": "^/running-your-organisation/funding"
 			},
 			{
+				"label": "EU exit (Brexit)",
+				"path": "/running-your-organisation/planning-for-eu-exit-brexit",
+				"route": "^/running-your-organisation/planning-for-eu-exit-brexit"
+			},
+			{
 				"label": "KeyStone",
 				"path": "/running-your-organisation/keystone",
 				"route": "^/running-your-organisation/keystone"
