@@ -1046,6 +1046,15 @@ img.responsive {
   max-width: 100%;
 }
 
+.wp-block-video {
+  width: 100%;
+  display: block;
+
+  video {
+    width: 100%;
+  }
+}
+
 p,
 li,
 .mdc-tab,
