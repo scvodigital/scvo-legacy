@@ -76,7 +76,7 @@
             "minimum_should_match": 1
           }
         }
-        {{/compare}}
+        {{/compare ~}}
       ],
       "must": [
         {{#if @root.request.params.query.q ~}}

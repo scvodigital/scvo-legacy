@@ -33,7 +33,7 @@
             "minimum_should_match": 1
           }
         }
-        {{/compare}}
+        {{/compare ~}}
       ]
     }
   },
