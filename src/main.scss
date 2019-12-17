@@ -824,7 +824,8 @@ primary-dark: #244B5A
 
   body.post table,
   .wp-block-table {
-    border: 1px solid map-get($themeSelected, 'primary');
+    border: none !important;
+    // border: 1px solid map-get($themeSelected, 'primary');
     border-collapse: collapse;
     &.full-width {
       width: 100%;
