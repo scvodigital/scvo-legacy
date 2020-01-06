@@ -2767,11 +2767,12 @@ body.i-love-charity:not(.post) main {
   }
 }
 body.scottish-charity-awards:not(.post) main {
-  .splash-overlay.splash-overlay-hidden {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)) !important;
-  }
+  // .splash-overlay.splash-overlay-hidden {
+  //   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)) !important;
+  // }
   .splash-image .splash-overlay .container-fluid {
     min-height: 20vh;
+    justify-content: center;
     .mdc-layout-grid {
       text-align: left;
     }
