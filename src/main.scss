@@ -2652,11 +2652,11 @@ body.eu-are-valued:not(.post) main {
     }
   }
 }
-body.scottish-charity-awards:not(.post) {
-  .splash-image {
-    background-position: bottom center;
-  }
-}
+// body.scottish-charity-awards:not(.post) {
+//   .splash-image {
+//     background-position: bottom center;
+//   }
+// }
 body.the-gathering-2020:not(.post) main,
 body.the-gathering-2019:not(.post) main {
   .splash-image {
@@ -2802,7 +2802,8 @@ body.scottish-charity-awards:not(.post) main {
   // }
   .splash-image .splash-overlay .container-fluid {
     min-height: auto;
-    padding: $unit 0 0;
+    max-width: 900px;
+    padding: $unit*2 0 $unit;
     justify-content: center;
     .mdc-layout-grid {
       text-align: left;
