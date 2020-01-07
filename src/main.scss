@@ -153,11 +153,11 @@ secondary-light: #6dede5,
 secondary-dark: #A7C9F2
 ),
 gathering: (
-primary: #673ab7,
-primary-overlay-start: #673ab7,
-primary-overlay-end: #673ab7,
-primary-light: #5731C9,
-primary-dark: #4527a0,
+primary: #8E3062,
+primary-overlay-start: #8E3062,
+primary-overlay-end: #8E3062,
+primary-light: #FE5160,
+primary-dark: #8E3062,
 secondary: #022347,
 secondary-light: #6dede5,
 secondary-dark: #A7C9F2
@@ -639,6 +639,10 @@ primary-dark: #244B5A
       border-color: black !important;
       background-color: white !important;
     }
+  }
+  body.the-gathering-2020:not(.post) main .splash-image .mdc-typography--body2,
+  body.the-gathering-2020:not(.post) main .splash-image .mdc-typography--body2 a {
+    color: map-get($themeGathering, 'primary') !important;
   }
   .the-gathering.featured-background-image,
   .the-gathering .full,
@@ -2665,6 +2669,7 @@ body.the-gathering-2019:not(.post) main {
       // width: 100%;
       // left: 0;
       font-size: 120%;
+      font-weight: 600;
       line-height: 1.5rem;
       color: white;
       a {
