@@ -628,6 +628,18 @@ primary-dark: #244B5A
   .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: map-get($themeServices, 'primary') !important;
   }
+  .charity-awards.featured-background-image {
+    .mdc-button {
+      color: black !important;
+      border-color: black !important;
+      background-color: white !important;
+    }
+    .mdc-button:hover {
+      color: black !important;
+      border-color: black !important;
+      background-color: white !important;
+    }
+  }
   .the-gathering.featured-background-image,
   .the-gathering .full,
   .the-gathering-2019 .full,
@@ -1514,11 +1526,24 @@ section.search {
       background-color: #1E1C34;
     }
     .featured-background-image.charity-awards {
-      height: 200px;
+      // height: 200px;
       background-color: #150522;
       display: flex;
       align-items: center;
       overflow: hidden;
+      .header-text {
+        margin: $unit*3 0 0;
+        max-width: 900px;
+      }
+      .header-text.hide-md {
+        margin: $unit $unit 0;
+      }
+      .tagline {
+        font-family: 'Asap';
+        color: white;
+        font-size: 1.4rem;
+        margin: $unit 0;
+      }
       .mdc-card {
         background-color: rgba(0,0,0,0.5);
         .mdc-card-inner {
@@ -2771,7 +2796,8 @@ body.scottish-charity-awards:not(.post) main {
   //   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)) !important;
   // }
   .splash-image .splash-overlay .container-fluid {
-    min-height: 20vh;
+    min-height: auto;
+    padding: $unit 0 0;
     justify-content: center;
     .mdc-layout-grid {
       text-align: left;
