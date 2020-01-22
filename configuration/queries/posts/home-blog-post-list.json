@@ -21,8 +21,14 @@
       ],
       "must": [
         {
-          "term": {
-            "categories_slug": "posts"
+          "terms": {
+            "categories_id": [
+              647,
+              11,
+              673,
+              15,
+              29
+            ]
           }
         },
         {
