@@ -29,8 +29,8 @@
       "should": [
         {
           "terms": {
-            "categories_id": [
-              20
+            "post_tags_id": [
+              695
             ]
           }
         }
