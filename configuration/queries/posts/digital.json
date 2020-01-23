@@ -28,11 +28,8 @@
       ],
       "must": [
         {
-          "terms": {
-            "categories_id": [
-              9,
-              510
-            ]
+          "term": {
+            "post_tags_slug": "digital-blog"
           }
         }
       ]

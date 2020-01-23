@@ -20,21 +20,13 @@
               }
             }
           ],
-          "must": {
-            "match_all": {}
-          }
-          {{#if @root.data.primaryResponse.hits.hits.[0] ~}},
-          "should": [
+          "must": [
             {
-              "terms": {
-                "categories_id": [
-                  {{join @root.data.primaryResponse.hits.hits.[0]._source.categories_id}}
-                ]
+              "term": {
+                "post_tags_slug": "digital-blog"
               }
             }
-          ],
-          "minimum_should_match": 1
-          {{/if ~}}
+          ]
         }
       },
       "random_score": {},
