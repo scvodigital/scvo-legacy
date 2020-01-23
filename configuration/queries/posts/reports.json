@@ -30,7 +30,7 @@
       "must": [
         {
           "term": {
-            "categories_id": 24
+            "post_tags_slug": "research"
           }
         }
       ]
