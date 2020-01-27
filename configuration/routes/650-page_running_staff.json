@@ -1,8 +1,8 @@
 {
   "name": "page_running_staff",
   "pattern": {
-    "index": "/running-your-organisation/staff-volunteers",
-    "section": "/running-your-organisation/staff-volunteers/*path"
+    "index": "/support/running-your-organisation/staff-volunteers",
+    "section": "/support/running-your-organisation/staff-volunteers/*path"
   },
   "tasks": [
     {

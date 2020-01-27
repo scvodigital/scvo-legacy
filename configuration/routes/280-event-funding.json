@@ -1,6 +1,6 @@
 {
   "name": "event_funding",
-  "pattern": "/events/a1v0n000009ykncqao-funding-the-future-ii",
+  "pattern": "/support/events/a1v0n000009ykncqao-funding-the-future-ii",
   "tasks": [
     {
       "name": "primaryResponse",

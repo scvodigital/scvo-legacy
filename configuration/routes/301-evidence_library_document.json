@@ -1,6 +1,6 @@
 {
   "name": "evidence_library_document",
-  "pattern": "/policy-research/evidence-library/:library_slug",
+  "pattern": "/policy/evidence-library/:library_slug",
   "tasks": [
     {
       "name": "primaryResponse",

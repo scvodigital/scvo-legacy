@@ -1,6 +1,6 @@
 {
   "name": "event_search",
-  "pattern": "/events",
+  "pattern": "/support/events",
   "debug": false,
   "tasks": [
     {

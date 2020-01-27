@@ -1,6 +1,6 @@
 {
   "name": "grant_ccrf",
-  "pattern": "/running-your-organisation/funding/community-capacity-resilience-fund/projects/:project_slug",
+  "pattern": "/funding/community-capacity-resilience-fund/projects/:project_slug",
   "tasks": [
     {
       "name": "primaryResponse",

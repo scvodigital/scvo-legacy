@@ -1,6 +1,6 @@
 {
   "name": "grant_cats",
-  "pattern": "/running-your-organisation/funding/carers-act-transformation-support-fund/projects/:project_slug",
+  "pattern": "/funding/carers-act-transformation-support-fund/projects/:project_slug",
   "tasks": [
     {
       "name": "primaryResponse",

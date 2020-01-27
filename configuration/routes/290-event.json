@@ -1,6 +1,6 @@
 {
   "name": "event",
-  "pattern": "/events/:id(/:junk)",
+  "pattern": "/support/events/:id(/:junk)",
   "debug": false,
   "tasks": [
     {

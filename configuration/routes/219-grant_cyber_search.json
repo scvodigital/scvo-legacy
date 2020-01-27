@@ -1,6 +1,6 @@
 {
   "name": "grant_cyber_search",
-  "pattern": "/digital/evolution/cyber-resilience/projects",
+  "pattern": "/funding/cyber-essentials-fund/projects",
   "tasks": [
     {
       "name": "primaryResponse",

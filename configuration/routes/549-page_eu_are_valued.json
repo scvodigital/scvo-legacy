@@ -1,8 +1,8 @@
 {
   "name": "page_eu_are_valued",
   "pattern": {
-    "index": "/projects-campaigns/eu-are-valued",
-    "section": "/projects-campaigns/eu-are-valued/*path"
+    "index": "/policy/campaigns/eu-are-valued",
+    "section": "/policy/campaigns/eu-are-valued/*path"
   },
   "tasks": [
     {

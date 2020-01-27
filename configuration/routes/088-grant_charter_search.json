@@ -1,6 +1,6 @@
 {
   "name": "grant_charter_search",
-  "pattern": "/digital/participation/charter-fund/projects",
+  "pattern": "/funding/digital-participation-charter-fund/projects",
   "tasks": [
     {
       "name": "primaryResponse",

@@ -1,6 +1,6 @@
 {
   "name": "event_digital",
-  "pattern": "/digital/events/:id(/:junk)",
+  "pattern": "/support/digital/events/:id(/:junk)",
   "debug": false,
   "tasks": [
     {

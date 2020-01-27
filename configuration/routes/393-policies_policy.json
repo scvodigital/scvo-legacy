@@ -1,6 +1,6 @@
 {
   "name": "page_policies_policy",
-  "pattern": "/policy-research/policy/:slug",
+  "pattern": "/policy/policy/:slug",
   "tasks": [
     {
       "name": "primaryResponse",

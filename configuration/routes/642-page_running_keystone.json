@@ -1,8 +1,8 @@
 {
   "name": "page_keystone",
   "pattern": {
-    "index": "/running-your-organisation/keystone",
-    "section": "/running-your-organisation/keystone/*path"
+    "index": "/support/running-your-organisation/keystone",
+    "section": "/support/running-your-organisation/keystone/*path"
   },
   "tasks": [
     {

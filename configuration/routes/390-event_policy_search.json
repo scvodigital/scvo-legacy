@@ -1,6 +1,6 @@
 {
   "name": "event_policy_search",
-  "pattern": "/policy-research/events",
+  "pattern": "/policy/events",
   "tasks": [
     {
       "name": "primaryResponse",

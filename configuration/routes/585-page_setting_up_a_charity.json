@@ -1,8 +1,8 @@
 {
   "name": "page_setting_up_a_charity",
   "pattern": {
-    "index": "/setting-up-a-charity",
-    "section": "/setting-up-a-charity/*path"
+    "index": "/support/setting-up-a-charity",
+    "section": "/support/setting-up-a-charity/*path"
   },
   "tasks": [
     {

@@ -1,8 +1,8 @@
 {
   "name": "page_digital_evolution_senior_leaders",
   "pattern": {
-    "index": "/digital/evolution/senior-leaders",
-    "section": "/digital/evolution/senior-leaders/:path"
+    "index": "/support/digital/evolution/senior-leaders",
+    "section": "/support/digital/evolution/senior-leaders/:path"
   },
   "tasks": [
     {

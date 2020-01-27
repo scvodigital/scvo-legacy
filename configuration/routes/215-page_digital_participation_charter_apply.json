@@ -1,6 +1,6 @@
 {
   "name": "page_digital_participation_charter_apply",
-  "pattern": "/digital/participation/charter-fund/apply",
+  "pattern": "/funding/digital-participation-charter-fund/apply",
   "tasks": [
     {
       "name": "primaryResponse",

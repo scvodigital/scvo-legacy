@@ -1,8 +1,8 @@
 {
   "name": "page_running_governance",
   "pattern": {
-    "index": "/running-your-organisation/governance",
-    "section": "/running-your-organisation/governance/*path"
+    "index": "/support/running-your-organisation/governance",
+    "section": "/support/running-your-organisation/governance/*path"
   },
   "tasks": [
     {

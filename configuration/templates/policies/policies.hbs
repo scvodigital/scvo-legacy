@@ -3,11 +3,11 @@
   <div class="container-fluid content page-content">
     <ul class="breadcrumbs breadcrumbs-length-1" aria-hidden="true">
       <li><a href="/">Home</a></li>
-      <li><a href="/policy-research">Policy &amp; research</a></li>
+      <li><a href="/policy">Policy &amp; research</a></li>
       {{#unless @root.request.params.query.q ~}}
       <li>Policies</li>
       {{else}}
-      <li><a href="/policy-research/policies">Policies</a></li>
+      <li><a href="/policy/policies">Policies</a></li>
       <li>Search results</li>
       {{/unless ~}}
     </ul>

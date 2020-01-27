@@ -718,7 +718,7 @@ primary-dark: #244B5A
   #settled_status_guide {
     background-color: map-get($themeDefault, 'primary-dark') !important;
   }
-  .policy-research .callout-image {
+  .policy .callout-image {
     background-image: linear-gradient(
     map-get($themePosts, 'primary-overlay-start'),
     map-get($themePosts, 'primary-overlay-start')
@@ -873,7 +873,7 @@ primary-dark: #244B5A
 .p,
 .blogs,
 .press-media,
-.policy-research {
+.policy {
   @include theme-colours('posts');
 }
 .projects-campaigns.twenty-years-delivering-change.saving-marine-life,
@@ -995,8 +995,8 @@ primary-dark: #244B5A
 .page-sidebar.static-sidebar,
 .post-sidebar .static-sidebar,
 .post-sidebar.static-sidebar,
-.policy-research.events .event-content,
-.policy-research.events .event-sidebar,
+.policy.events .event-content,
+.policy.events .event-sidebar,
 .posts.blogs .post-sidebar,
 .posts.press .post-sidebar,
 .post-content,
@@ -1668,7 +1668,7 @@ section.search {
 }
 
 .home,
-.policy-research {
+.policy {
   .latest-content {
     padding: $unit*2 0;
     .mdc-layout-grid__cell--span-10-desktop {
@@ -1686,7 +1686,7 @@ section.search {
   }
 }
 .projects-campaigns.i-love-charity,
-.policy-research {
+.policy {
   .latest-content {
     padding: 0;
   }
@@ -1776,7 +1776,7 @@ section.search {
   width: 64px;
 }
 
-.policy-research .latest-content .gist,
+.policy .latest-content .gist,
 .home .latest-content .gist,
 .digital .latest_content .gist,
 .jobs-landing .gist,
@@ -2891,8 +2891,8 @@ body.i-love-charity main .page-info,
 .scvo-cms-page-31505 .page-info,
 .scvo-cms-page-32129 .page-info,
 .blogs .page-sidebar .page-info,
-.policy-research.briefings-consultation-responses .mdc-card__actions,
-.policy-research.research .mdc-card__actions,
+.policy.briefings-consultation-responses .mdc-card__actions,
+.policy.research .mdc-card__actions,
 .post.author .post-info-author,
 .digital.about .page-info,
 .sidebar .list .post-info-author,
@@ -3021,8 +3021,8 @@ body.i-love-charity main .page-info,
     margin-bottom: $unit/2;
   }
 }
-.policy-research.briefings-consultation-responses .mdc-card__supporting-text,
-.policy-research.research .mdc-card__supporting-text,
+.policy.briefings-consultation-responses .mdc-card__supporting-text,
+.policy.research .mdc-card__supporting-text,
 .press-media .mdc-card__supporting-text {
   padding-bottom: $unit;
 }
@@ -3265,7 +3265,7 @@ table.membership-fees {
 .grid-info.cjs-footer {
   margin: $unit*2 0 0;
 }
-.support {
+.support.mdc-layout-grid {
   .mdc-card__media,
   .mdc-card__media a {
     height: $unit*4;

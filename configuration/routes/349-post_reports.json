@@ -1,6 +1,6 @@
 {
   "name": "post_reports",
-  "pattern": "/policy-research/research",
+  "pattern": "/policy/research",
   "tasks": [
     {
       "name": "primaryResponse",

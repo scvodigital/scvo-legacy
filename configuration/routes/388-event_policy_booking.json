@@ -1,6 +1,6 @@
 {
   "name": "event_policy_booking",
-  "pattern": "/policy-research/events/:id(/:junk)/book",
+  "pattern": "/policy/events/:id(/:junk)/book",
   "debug": false,
   "tasks": [
     {

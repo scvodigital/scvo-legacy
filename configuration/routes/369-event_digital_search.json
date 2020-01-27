@@ -1,6 +1,6 @@
 {
   "name": "event_digital_search",
-  "pattern": "/digital/events",
+  "pattern": "/support/digital/events",
   "tasks": [
     {
       "name": "primaryResponse",

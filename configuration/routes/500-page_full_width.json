@@ -1,15 +1,15 @@
 {
   "name": "page_full_width",
   "pattern": {
-    "setting_up_faq": "/setting-up-a-charity/frequently-asked-questions",
-    "bank_comparison": "/running-your-organisation/finance-business-management/bank-accounts/comparison",
+    "setting_up_faq": "/support/setting-up-a-charity/frequently-asked-questions",
+    "bank_comparison": "/support/running-your-organisation/finance-business-management/bank-accounts/comparison",
     "services": "/services",
-    "policy_research_policy_committee": "/policy-research/policy-committee",
+    "policy_research_policy_committee": "/policy/policy-committee",
     "office_space": "/services/office-space",
     "offices": "/services/office-space/:section",
     "projects_campaigns": "/projects-campaigns",
-    "projects_campaigns_terrific_trustees": "/projects-campaigns/terrific-trustees",
-    "digital_about": "/digital/about"
+    "projects_campaigns_terrific_trustees": "/support/trustees",
+    "digital_about": "/support/digital/about"
   },
   "tasks": [
     {

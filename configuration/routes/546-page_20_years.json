@@ -1,8 +1,8 @@
 {
   "name": "page_20_years",
   "pattern": {
-    "20_years_campaign": "/projects-campaigns/20-years-delivering-change",
-    "20_years_campaign_section": "/projects-campaigns/20-years-delivering-change/:section"
+    "20_years_campaign": "/policy/campaigns/20-years-delivering-change",
+    "20_years_campaign_section": "/policy/campaigns/20-years-delivering-change/:section"
   },
   "tasks": [
     {

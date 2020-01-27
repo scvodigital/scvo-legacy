@@ -6,9 +6,9 @@
     {{else}}
       <ul class="breadcrumbs breadcrumbs-length-2" aria-hidden="true">
         <li><a href="/">Home</a></li>
-        <li><a href="/running-your-organisation">Running your organisation</a></li>
-        <li><a href="/running-your-organisation/governance">Good Governance</a></li>
-        <li><a href="/running-your-organisation/governance/checkup">Checkup</a></li>
+        <li><a href="/support/running-your-organisation">Running your organisation</a></li>
+        <li><a href="/support/running-your-organisation/governance">Good Governance</a></li>
+        <li><a href="/support/running-your-organisation/governance/checkup">Checkup</a></li>
         {{#with (getProperty @root.context.metaData.governanceCheckup (concat "section-" @root.request.params.query.section)) ~}}
         <li>{{{name}}}</li>
         {{/with ~}}
