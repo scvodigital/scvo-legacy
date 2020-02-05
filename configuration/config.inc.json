@@ -1,11 +1,10 @@
 {
   "domains": [
-    "scvo-net.appspot.com",
     "scvo-legacy.local",
+    "legacy.scvo.scot",
     "scvo.org.uk",
     "scvo.org",
-    "amp.scvo.org",
-    "scvo-frontend-dot-scvo-net.appspot.com"
+    "amp.scvo.org"
   ],
   "routes": [
     "{:./routes/*.json}"
