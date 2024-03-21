@@ -1,7 +1,6 @@
 {
   "domains": [
-    "scvo-legacy.local",
-    "legacy.scvo.scot"
+    "scvo-legacy.local"
   ],
   "routes": [
     "{:./routes/*.json}"
